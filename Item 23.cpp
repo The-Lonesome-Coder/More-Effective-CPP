@@ -31,10 +31,10 @@ int main()
             printf("%10.5f", d);
         #else
             std::cin >> d;
-            std::cout << std::setw(10) // set field width
-                      << std::setprecision(5) // set decimal places
-                      << std::setiosflags(std::ios::showpoint) // keep trailing 0s
-                      << std::setiosflags(std::ios::fixed) // use these settings
+            std::cout << std::setw(10)                              // set field width
+                      << std::setprecision(5)                       // set decimal places
+                      << std::setiosflags(std::ios::showpoint)      // keep trailing 0s
+                      << std::setiosflags(std::ios::fixed)          // use these settings
                       << d;
         #endif
 
