@@ -53,7 +53,7 @@ const Rational operator *(const Rational& lhs, const Rational& rhs)
  * maximizing efficiency while maintaining correct function behavior.
 */
 // The most efficient way to write a function returning an object
-inline const Rational operator*(const Rational& lhs, const Rational& rhs)
+inline const Rational operator *(const Rational& lhs, const Rational& rhs)
 {
     return Rational(lhs.numerator() * rhs.numerator(), lhs.denominator() * rhs.denominator());
 }
