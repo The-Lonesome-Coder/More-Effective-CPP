@@ -37,11 +37,6 @@ class Chicken: public Animal
  * Making assignment operators virtual in the base class allows correct operator invocation for derived classes.
  * However, this introduces the possibility of mixed-type assignments (assigning a Chicken object to a Lizard object),
  * which is undesirable.
- *
- *
- * Private Assignment Operators in Base Class:
- * Making the assignment operator private in the base class prevents partial and mixed-type assignments but also
- * prohibits assignments between objects of the base class (Animal).
 */
 class Animal
 {
