@@ -119,7 +119,7 @@ class SpaceShip: public GameObject
         virtual void collide(GameObject& otherObject);
         virtual void collide(SpaceShip& otherObject);
         virtual void collide(SpaceStation& otherObject);
-        virtual void collide(Asteroid& otherobject);
+        virtual void collide(Asteroid& otherObject);
 };
 
 
